@@ -66,7 +66,7 @@ sudo tar zxvf digiwage-1.1.0-x86_64-linux-gnu.tar.gz
 sudo mv digiwage-cli /usr/bin/
 sudo mv digiwaged /usr/bin/
 sudo mv digiwage-tx /usr/bin/
-sudo rm -r zsub1x-1.3.4-x86_64-linux.tar.gz
+sudo rm -r digiwage-1.1.0-x86_64-linux-gnu.tar.gz
 }
 
 createconf() {
@@ -74,8 +74,8 @@ createconf() {
 #TODO: Random generate the user and password
 
 message "Creating chaincoin.conf..."
-CONFDIR=~/.zsub1x
-CONFILE=$CONFDIR/zsub1x.conf
+CONFDIR=~/.digiwage
+CONFILE=$CONFDIR/digiwage.conf
 if [ ! -d "$CONFDIR" ]; then mkdir $CONFDIR; fi
 if [ $? -ne 0 ]; then error; fi
 mnip=$(curl -s https://api.ipify.org)
