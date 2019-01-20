@@ -61,12 +61,12 @@ cd
 
 installwallet() { #TODO: add error detection
 message "Downloading the wallet & moving files..."
-sudo wget https://github.com/digiwage-1.1.0-x86_64-linux-gnu.tar.gz
-sudo tar zxvf digiwage-1.1.0-x86_64-linux-gnu.tar.gz
+sudo wget https://github.com/digiwage/digiwage/releases/download/1.2.0/digiwage-1.2.0-x86_64-linux-gnu.tar.gz
+sudo tar zxvf digiwage-1.2.0-x86_64-linux-gnu.tar.gz
 sudo mv digiwage-cli /usr/bin/
 sudo mv digiwaged /usr/bin/
 sudo mv digiwage-tx /usr/bin/
-sudo rm -r digiwage-1.1.0-x86_64-linux-gnu.tar.gz
+sudo rm -r digiwage-1.2.0-x86_64-linux-gnu.tar.gz
 }
 
 createconf() {
