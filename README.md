@@ -1,10 +1,10 @@
 # Digiwage
 
-1 liner for zsub1x Master Node Tested Systems:
+1 liner for Digiwage Master Node Tested Systems:
 
 -Ubuntu 16.04
 
-To install run the following commands. It will ask you to enter your private key. ( make sure you have your private key before you run your the script. )
+To install MN on vps, run the following commands. It will ask you to enter your private key. ( make sure you have your private key before you run your the script. )
 
 >wget https://raw.githubusercontent.com/lucifer911/Digiwage/master/install-digi.sh
 
